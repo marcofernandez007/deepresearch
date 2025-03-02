@@ -28,4 +28,4 @@ export const models: Array<Model> = [
   // },
 ] as const;
 
-export const DEFAULT_MODEL_NAME: string = 'gpt-4o';
+export const DEFAULT_MODEL_NAME: string = 'hybrid-o3-perplexity';
