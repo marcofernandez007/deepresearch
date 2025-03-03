@@ -694,7 +694,7 @@ export async function POST(request: Request) {
             parameters: z.object({
               topic: z.string().describe('The topic or question to research'),
             }),
-            execute: async ({ topic, maxDepth = 7 }) => {
+            execute: async ({ topic, maxDepth = 3 }) => {
               const startTime = Date.now();
               const timeLimit = 4.5 * 60 * 1000; // 4 minutes 30 seconds in milliseconds
 
